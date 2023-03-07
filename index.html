@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo-pens.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <title>Homepage</title>
+  </head>
+
+  <body class="min-h-[100vh] flex flex-col w-full">
+    <nav class="flex justify-between items-center py-3 px-8 border-b-[1px] sticky top-0 bg-white z-40 bg-opacity-80">
+      <div class="logo flex items-center">
+        <img src="images/logo-pens.png" alt="logo-pens" class="w-10 h-10 mr-2">
+        <p class="text-slate-700 font-serif md:hidden">PENS</p>
+        <p class="text-slate-700 font-serif hidden md:block">Politeknik Elektronika Negeri Surabaya</p>
+      </div>
+      <div class="nav-menu hidden md:block">
+        <ul class="grid grid-flow-col grid-cols-3 gap-x-5">
+          <li><a href="#about">About</a></li>
+          <li><a href="#study">Study</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="content h-full w-full bg-slate-50 py-6 md:pt-10">
+      <main class="main">
+        <header class="introduction scroll-mt-28" id="about">
+          <div class="container px-6 py-4 mx-auto">
+            <div class="items-center md:flex">
+              <div class="w-full md:w-1/2 md:mr-6">
+                <div class="lg:max-w-lg">
+                  <h1 class="text-3xl font-semibold text-gray-800 lg:text-4xl">Best place to choose <br>
+                    your <span class="text-blue-500 ">clothes</span></h1>
+
+                  <p class="mt-3 text-gray-600 ">
+                    Hello, i am Dzal from Applied Data Dcience major at Electronic Engineering Polytechnic Institute of
+                    Surabaya (EEPIS). I would love to talk about machine learning engineering, full stack website, and
+                    other software engineering stuff
+                  </p>
+
+                  <button
+                    class="w-full mt-6 text-sm tracking-wider text-white uppercase transition-colors duration-300 transform bg-blue-600 rounded-lg lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                    <a href="https://github.com/Dzalhaqi" class="block min-w-max px-5 py-2">
+                      Follow Me!!
+                    </a>
+                  </button>
+                </div>
+              </div>
+
+              <div class="flex items-center justify-center w-full mt-6 md:mt-0 md:w-1/2">
+                <img class="w-96 h-96 lg:max-w-3xl rounded-lg" src="images/profile.webp" alt="profile">
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <div class="course-activity px-6 md:px-0 my-10 scroll-mt-28" id="study">
+          <section class="container px-4 mx-auto">
+            <div class="sm:flex sm:items-center sm:justify-between">
+              <div>
+                <div class="flex items-center gap-x-3">
+                  <h2 class="text-lg font-medium text-gray-800">Applied Data Science Subjects</h2>
+
+                  <span class="px-3 py-1 text-xs text-blue-600 bg-blue-100 rounded-full">
+                    16 credit semester
+                  </span>
+                </div>
+
+                <p class="mt-1 md:mr-6 text-sm text-gray-500">
+                  These subject are required to be taken by all students in the Applied Data Science program in 4th
+                  semester.
+                </p>
+              </div>
+
+              <div class="flex items-center mt-4 gap-x-3">
+                <div class="relative inline-flex">
+                  <svg class="w-2 h-2 absolute top-0 right-0 m-4 pointer-events-none" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 412 232">
+                    <path
+                      d="M206 171.144L42.678 7.822c-9.763-9.763-25.592-9.763-35.355 0-9.763 9.764-9.763 25.592 0 35.355l181 181c4.88 4.882 11.279 7.323 17.677 7.323s12.796-2.441 17.678-7.322l181-181c9.763-9.764 9.763-25.592 0-35.355-9.763-9.763-25.592-9.763-35.355 0L206 171.144z"
+                      fill="#648299" fill-rule="nonzero" /></svg>
+                  <select
+                    class="border border-gray-300 rounded-full text-gray-600 h-10 pl-5 pr-10 bg-white hover:border-gray-400 focus:outline-none appearance-none day">
+                    <option>Monday</option>
+                    <option>Tuesday</option>
+                    <option>Wednesday</option>
+                    <option>Thursday</option>
+                    <option>Friday</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex flex-col mt-6">
+              <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+                <div class="inline-block min-w-full py-2 align-middle md:px-6 lg:px-8">
+                  <div class="overflow-hidden border border-gray-200  rounded-lg shadow-md">
+                    <table class="min-w-full divide-y divide-gray-200">
+                      <thead class="bg-gray-50">
+                        <tr>
+                          <th scope="col"
+                            class="py-3.5 px-4 text-sm font-normal text-left rtl:text-right text-gray-500 ">
+                            <p>Subjects</p>
+                          </th>
+
+                          <th scope="col"
+                            class="px-12 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 ">
+                            Room
+                          </th>
+
+                          <th scope="col"
+                            class="px-4 py-3.5 text-sm font-normal text-left rtl:text-right text-gray-500 ">
+                            Time
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody class="bg-white divide-y divide-gray-200">
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="container px-6 py-4 mx-auto scroll-mt-28" id="contact">
+          <section class="min-h-max bg-white lg:flex rounded-xl shadow-xl">
+            <div class="flex flex-col justify-center w-full p-8 lg:bg-gray-100 lg:px-12 xl:px-32 lg:w-1/2 rounded-xl">
+              <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl">Any Question??</h1>
+              <p class="mt-4 text-gray-500">
+                Ask me everything and i would like to hear from you and of course i will answer it as soon as possible.
+              </p>
+
+            </div>
+
+            <div class="flex flex-col justify-center w-full p-8 lg:w-1/2 lg:px-12 xl:px-24">
+              <form>
+                <div class="-mx-2 md:items-center md:flex">
+                  <div class="flex-1 px-2">
+                    <label class="block mb-2 text-sm text-gray-600">Full Name</label>
+                    <input type="text" placeholder="John Doe"
+                      class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                  </div>
+
+                  <div class="flex-1 px-2 mt-4 md:mt-0">
+                    <label class="block mb-2 text-sm text-gray-600">Email address</label>
+                    <input type="email" placeholder="johndoe@example.com" mailto="dzalhaqi@gmail.com"
+                      class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                  </div>
+                </div>
+
+                <div class="w-full mt-4">
+                  <label class="block mb-2 text-sm text-gray-600">Message</label>
+                  <textarea
+                    class="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-md md:h-56 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
+                    placeholder="Message"></textarea>
+                </div>
+
+                <button
+                  class="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                  get in touch
+                </button>
+              </form>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+    <footer class="p-4 bg-white sm:p-6 mt-auto w-full border-t-[1px]">
+      <div class="grid place-items-center gap-y-2">
+        <img src="images/logo-pens.png" alt="Logo PENS" class="w-10 h-10 mr-2">
+        <div class="mt-2">
+          <span>
+            <p class="text-center font-serif text-gray-700">© Muhammad Dzalhaqi | Applied Data Science 2021</p>
+          </span>
+          <span>
+            <p class="text-center font-serif text-gray-700">Made with ☕️ at Surabaya</p>
+          </span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="src/script.js"></script>
+  </body>
+
+</html>
